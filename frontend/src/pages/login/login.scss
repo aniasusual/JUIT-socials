@@ -1,0 +1,115 @@
+.login {
+  height: 100vh;
+  // background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  
+  .videoTag{
+    height:fit-content;
+    width:100%;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .card {
+    width: 50%;
+    display: flex;
+    // background-color: white;
+    background: transparent center;
+    border-radius: 10px;
+    min-height: 600px;
+    // overflow: hidden;
+    z-index: 1;
+    
+
+    .left {
+      flex: 1;
+      // background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+      //   url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
+      //     center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      // font-weight: bolder;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+      }
+      
+      p {
+        border-radius: 3px;
+        color: rgb(255, 255, 255);
+        background-color: #938eef;
+        opacity: 0.9;
+      }
+
+      span {
+        font-size: 14px;
+      }
+      
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: rebeccapurple;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+
+      h1 {
+      // color: #555;
+      color: rgb(255, 255, 255);
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        color: white;
+        
+        input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+        border-radius: 2px;
+        background: transparent ;
+        }
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: rgb(255, 255, 255);
+          opacity: 1;
+          font-size: 12px;
+        }
+        
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: #938eef;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
