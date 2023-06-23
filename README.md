@@ -4,7 +4,8 @@ A social media website for JUIT students to communicate with each other and past
 # GUI
 <img width="1437" alt="Screenshot 2023-06-22 at 7 19 53 PM" src="https://github.com/aniasusual/JUIT-socials/assets/82938725/d0b14e78-061a-4495-849d-33742aaf95c8">
 <img width="1437" alt="Screenshot 2023-06-22 at 7 20 06 PM" src="https://github.com/aniasusual/JUIT-socials/assets/82938725/050b5ae0-069b-4013-a3cf-3c66773e8e86">
-<img width="1440" alt="home-social" src="https://github.com/aniasusual/JUIT-socials/assets/82938725/5022a49a-ee36-409b-af5c-a5261e8742c8">
+<img width="1440" alt="home-so" src="https://github.com/aniasusual/JUIT-socials/assets/82938725/41888925-f08f-4855-a6e7-678b6a76423f">
+
 
 ## Features
 1. Users can Login, Register, and view their profiles.
